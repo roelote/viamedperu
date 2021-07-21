@@ -1,0 +1,46 @@
+
+p, ul li
+{
+    @apply text-gray-700 my-2;
+}
+ul li
+{
+    @apply text-sm;
+}
+
+.mark
+{
+    background-color: #ff0;
+}
+.valores, .mySwiper2
+{
+    --swiper-navigation-color: #ea0b0b; --swiper-pagination-color: #ea0b0b;
+}
+.active-menu
+{
+    @apply bg-viamed-500 text-white;
+}
+.banner-wrapper {
+    transition: all 300ms ease-in-out;
+}
+.banner {
+    transition: all 300ms ease-in-out;
+}
+.animateIn{
+    transform: translateY(0px);
+}
+.animateOut{
+    transform: translateY(-100%);
+}
+
+/* .mySwiper2
+{
+    --swiper-navigation-color: #fff; --swiper-pagination-color: #fff;
+} */
+/*
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+  } */
